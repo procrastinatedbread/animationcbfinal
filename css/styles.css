@@ -1,0 +1,21 @@
+/* Setting up the elements in their desired positions for the project */
+body {
+  background-image: url(../images/Space.png);
+  background-repeat: repeat-x;
+  background-color: black;
+}
+
+.rocket-element {
+  height: 200px;
+  position: absolute;
+  top: 450px;
+  left: 400px;
+  transform: rotateZ(45deg);
+}
+
+.cody {
+  height: 150px;
+  position: absolute;
+  top: 480px;
+  left: 280px;
+}
